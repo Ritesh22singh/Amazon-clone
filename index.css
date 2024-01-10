@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+   
+    /* Here i set margin, font-family, border for universal sector */
+
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111; 
+    color: white;
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+
+    /* Here i set all property for navbar */
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    align-items: center;
+
+    /* Here i set amzone navbar div, heigth, width alignment  */
+    
+}
+
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    
+    /* Here we insert image, background color, heigth, width */
+}
+
+border{
+    border: 2px solid transparent;
+}
+
+.border :hover{
+    border: 1px solid white;
+}
+
+/* Here i trasform the hover on border */
+
+
+
+/* Box 2 sytling */
+
+.nav-one{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 8px;
+}
+
+.nav-two{
+    font-size: 1rem;
+    margin-left: 2px;
+}
+
+.add-icon{
+    display: flex;
+    /* margin-left: 2px; */
+}
+
+
+
+/* Nav-Search CSS */
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    background-color: goldenrod;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+.search-select{
+    width: 50px; 
+   
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: #0f1111;
+    background-color: #f2f3f4;
+    text-align: center;
+     border: none; 
+    
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #0f1111;
+}
+
+/* .nav-search :hover{
+    border: 2px solid rgb(226, 153, 17);
+}
+Note: now this one is not in amazon site.
+ */
+
+  
+/* Box 4 & 5 --sign in CSS */
+
+span{
+    font-size: 13px;
+
+}
+
+.nav-seconf{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* Box 6 -- Cart box */
+
+.nav-cart i{
+    
+    font-size: 30px; 
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+}
+
+/* Second  */
+
+.list{
+    width: 100%;
+    height: 40px;
+    background-color: #262e2ee5;
+}
+
+/* panal  */
+
+.panal  {
+   height: 40px;
+   background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panal-ops {
+    /* display: inline; */
+    display: flex;
+}
+
+.panal-ops{
+    width: 70%;
+    font-weight: 200;
+}
+
+.panal-ops-1{
+    margin: 10px;
+}
+
+img{
+    width: 100%;
+} 
+
+/* Content box css */
+
+
+.content-section{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: #1dbfff; */
+}
+
+.box{
+    border: 1px solid black; 
+    
+    padding: 0px 20px;
+    /* margin:0px 0px 44px;    */
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 320px;
+    width: 270px;
+    background-color: white
+    
+    
+    
+}
+
+/* .box-img{
+   
+   
+    width: 100%;
+} */
+
+/* Footer css */
+
+footer{
+    margin-top: 20px;
+    
+}
+
+.foot-panal1{
+    background-color: #37475a;
+    color: #dddddd;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+
+
+}
+
+/* Foot panal2 css */
+
+.foot-panal2{
+    display: flex;
+    justify-content:space-evenly;
+    height: 300px;
+    background-color: #222f3d;
+    color: #dddddd;
+}
+
+ul{
+    margin-top: 40px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+/* Footer Panal 3 Css */
+
+.foot-panal3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+/* foot-panal-4 css */
+
+.foot-panal4{
+    background-color: #0f1111;
+    color: #dddddd;
+    height: 75px;
+
+    
+
+}
+.pages{
+    font-size: 0.7rem;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.copy{
+    font-size: 0.7rem;
+    text-align: center;
+
+}
+
